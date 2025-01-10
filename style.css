@@ -27,7 +27,7 @@ header {
 
 h1 {
   font-size: 2.5em;
-  color: rgb(100, 175, 172); /* لون جذاب */
+  color: rgb(53, 226, 172); /* لون جذاب */
 }
 
 .bio {
@@ -59,3 +59,25 @@ footer {
 .social-links a:hover {
   text-decoration: underline; /* تأثير عند التمرير */
 }
+
+.pages {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pages li {
+  display: inline;
+  margin: 20px;
+}
+
+.pages a {
+  text-decoration: wavy  ;
+  font-size: xx-large;
+  color: rgb(53, 226, 172); /* لون الروابط */
+  font-weight: bold;
+}
+
+.pages a:hover {
+  text-decoration: underline; /* تأثير عند التمرير */
+}
+
