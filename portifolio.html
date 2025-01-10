@@ -3,41 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js">
-</script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <title>Portifolio</title>
 </head>
-<body width=1000>
-  <a href="Batool Portifolio_1.jpg" data-lightbox="image-1" data-title="slide 1">
-  <img src="Batool Portifolio_1.jpg" alt="slide 1">
+<body>
   
-  <a href="Batool Portifolio_2.jpg" data-lightbox="image-2" data-title="slide 1">
-  <img src="Batool Portifolio_2.jpg" alt="slide 1">
-
-  <a href="Batool Portifolio_3.jpg" data-lightbox="image-3" data-title="slide 1">
-  <img src="Batool Portifolio_3.jpg" alt="slide 1">
-
-  <a href="Batool Portifolio_4.jpg" data-lightbox="image-4" data-title="slide 1">
-  <img src="Batool Portifolio_4.jpg" alt="slide 1">
-
-  <a href="Batool Portifolio_5.jpg" data-lightbox="image-5" data-title="slide 1">
-  <img src="Batool Portifolio_5.jpg" alt="slide 1">
-
-  <a href="Batool Portifolio_6.jpg" data-lightbox="image-6" data-title="slide 1">
-  <img src="Batool Portifolio_6.jpg" alt="slide 1">
-
-  <a href="Batool Portifolio_7.jpg" data-lightbox="image-7" data-title="slide 1">
-  <img src="Batool Portifolio_7.jpg" alt="slide 1">
-
-  <a href="Batool Portifolio_8.jpg" data-lightbox="image-8" data-title="slide 1">
-  <img src="Batool Portifolio_8.jpg" alt="slide 1">
-
-</a>
-
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="image1.jpg" alt="BatoolDev-1.jpg"></div>
+        <div class="swiper-slide"><img src="image1.jpg" alt="BatoolDev-2.jpg"></div>
+        <div class="swiper-slide"><img src="image1.jpg" alt="BatoolDev-3.jpg"></div>
+        <div class="swiper-slide"><img src="image1.jpg" alt="BatoolDev-4.jpg"></div>
+        <div class="swiper-slide"><img src="image1.jpg" alt="BatoolDev-5.jpg"></div>
+        <div class="swiper-slide"><img src="image1.jpg" alt="BatoolDev-6.jpg"></div>
+        <div class="swiper-slide"><img src="image1.jpg" alt="BatoolDev-7.jpg"></div>
+        <div class="swiper-slide"><img src="image1.jpg" alt="BatoolDev-8.jpg"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
  
-
+<script>
+var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+});
+</script>
 
 </body>
 </html>
